@@ -6,33 +6,10 @@ IoT lite is a lightweight data model based on semantic sensor network (SSN) onto
 
 The figure below depicts the key concepts of the ontology and the main relationships between them.
 
-
-
-### Another deeper heading
  
-Paragraphs are separated
-by a blank line.
-
-Two spaces at the end of a line leave a  
-line break.
-
-Text attributes _italic_, *italic*, __bold__, **bold**, `monospace`.
-
-Horizontal rule:
-
----
-
-Bullet list:
-
-  * apples
-  * oranges
-  * pears
-
-Numbered list:
-
-  1. apples
-  2. oranges
-  3. pears
-
-A [link](http://example.com).
+Devices are classified into three classes: 
+*sensing devices 
+*actuating devices 
+*tag devices
+Each device has a coverage area that represents the 2D-spatial covered by the IoT device. This area could be a polygon, circle or rectangle. Each device exposes services which is are associated with the entity. This latter defines the concept of real life objects that are subject to observation. Therefore, each entity has a geographical location and has attributes (QuantityKind, Unit) describing the quantity type and measurement unit associated with it.
 
